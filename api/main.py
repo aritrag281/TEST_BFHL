@@ -38,6 +38,3 @@ def process_data():
 @app.route('/bfhl', methods=['GET'])
 def get_operation_code():
     return jsonify({"operation_code": 1})
-
-if __name__ == '__main__':
-    app.run(debug=True)
